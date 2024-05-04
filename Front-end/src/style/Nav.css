@@ -1,0 +1,67 @@
+/* Nav.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 5px -50px;
+  padding-right: 30px;
+  background-color: #555555; /* Dark Gray for the navbar */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+  color: #ffffff; /* Gold for the text in the navbar */
+  position: fixed; /* Add this line */
+  top: 0; /* Add this line to stick the navbar to the top */
+  width: 100%; /* Add this line to make the navbar full-width */
+  z-index: 1000; /* Add this line to ensure the navbar is above other elements */
+  opacity: 0.8;
+  
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+  padding-left: 20px;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.moon {
+  max-width: 30px;
+  padding: 5px 10px;
+}
+
+.moon:hover {
+  content: url('../images/moon1.png'); /* Set the hover image path */
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; /* Specify the bold weight */
+  font-size: 20px;
+  margin-right: 70px; /* Adjust the margin as needed */
+  color: #ffffff; /* Gold for the text in the navbar */
+}
+
+.nav-links li:hover {
+  color: #FF9900;
+}
+
